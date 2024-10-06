@@ -112,7 +112,7 @@ section #text span {
 
 section #text {
     position: absolute;
-    color: #004660;
+    color: #ffffff;
     font-size: 10vw;
     text-align: center;
     line-height: 0.55em;
@@ -172,6 +172,28 @@ section #text {
     backdrop-filter: blur(4px);
     padding: 1em;
     margin-bottom: 2%;
+}
+.figures-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que las figuras se ajusten en múltiples filas si es necesario */
+    gap: 20px; /* Espacio entre las figuras */
+}
+
+figure {
+    width: 30%; /* Ajusta el tamaño de las figuras */
+    position: relative;
+}
+
+
+
+figcaption {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /* Properties for middle section (below water) */
@@ -246,6 +268,7 @@ section #text {
 
 #seabed {
     width: 100%;
+    height: 250px;
     left: 0;
     bottom: 0;
     opacity: 1;
@@ -415,4 +438,11 @@ section #text {
         left: 50%;
         width: 15%;
     }
+}
+
+.reducir-altura {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px; /* Ajusta la altura deseada */
+    width: 400px; /* Mantiene la proporción de la imagen */
 }

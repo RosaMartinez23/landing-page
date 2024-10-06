@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore the interactive Halloween Party project, showcasing responsive design, animations, and web development techniques. Immerse yourself in the spooky ambiance of Halloween.">
+    <meta name="description" content="">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo.png">
@@ -18,11 +17,10 @@
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="desing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <!-- Open Graph meta tags for image sharing -->
     <meta property="og:title" content="Parallax Scroll Site">
-    <meta property="og:description"
-        content="Explore the interactive Halloween Party project and Immerse yourself in the spooky ambiance of Halloween.">
+    <meta property="og:description" content="Explore the interactive Halloween Party project and Immerse yourself in the spooky ambiance of Halloween.">
     <meta property="og:image" content="https://drive.google.com/uc?id=1GFbBHTi7w8weRVqLJ7bkofezEEGg4U30">
     <meta property="og:type" content=”website” />
 </head>
@@ -57,110 +55,208 @@
     <!-- This is the Middle Section (Below Water) which has content -->
     <div class="sec" id="sec">
 
-        <div class="section1">
-        
-        <p  class="title-metahno">Methane: The Hidden Villain</p>
 
+        <div class="glass">
+            <h3>What causes the greenhouse effect?</h3>
+            <ul>
+                <p>Here are three of the top contributors to the greenhouse effect:</p>
+                <li>
+
+
+
+                    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                                <img src="images/carrucel/co2.jpg"
+                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="...">
+                                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                    <p class="text-white text-5xl font-bold bg-black/50 px-4 py-2 rounded-md">Fossil
+                                        Fuels and CO₂ Emissions</p>
+                                    <p class="text-black text-2xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                                        Burning coal, oil, and gas releases CO₂, causing global warming.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                                <img src="images/carrucel/vacas.png"
+                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="...">
+
+                                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                    <p class="text-white text-5xl font-bold bg-black/50 px-4 py-2 rounded-md">
+                                        Agriculture (CH₄)</p>
+                                    <p class="text-black text-2xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                                        Livestock farming emits methane, a potent greenhouse gas.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-1500 ease-in-out" data-carousel-item>
+                                <img src="images/carrucel/deforestacion.png"
+                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                    alt="...">
+                                <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                    <p class="text-white text-5xl font-bold bg-black/50 px-4 py-2 rounded-md">
+                                        Deforestation (CO₂)</p>
+                                    <p class="text-black text-2xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                                        Cutting forests releases CO₂, worsening the greenhouse effect.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- Slider indicators -->
+                        <div
+                            class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                                data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                                data-carousel-slide-to="1"></button>
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                                data-carousel-slide-to="2"></button>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button"
+                            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-prev>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M5 1 1 5l4 4" />
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button"
+                            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                            data-carousel-next>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+
+
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <br><br>
+
+
+
+
+
+        <div class="section1">
+            <p class="title-metahno">Methane: The Hidden Villain</p>
 
             <div class="section-container1">
-
                 <div class="card">
-                    <div class= "header-img-card">
-                    </div>
-
+                    <div class="header-img-card"></div>
                     <div>
-                        <p class="card-text-info">Methane has great heat-trapping abilities. <br> Is extremely difficult to control <br> 
-                        Often goes unnoticed <br> Is 80 times stronger than CO₂ in the short term.</p>
+                        <p class="card-text-info">Methane has great heat-trapping abilities. <br> Is extremely difficult to control <br>
+                            Often goes unnoticed <br> Is 80 times stronger than CO₂ in the short term.</p>
                     </div>
-                
-                
                 </div>
                 <div class="card">
-                    <div class= "header-img-card-dioxido">
-                    </div>
-
+                    <div class="header-img-card-dioxido"></div>
                     <div>
-                        <p class="card-text-info">Lower heat-trapping potential<br> Lower immediate warming effect <br> 
-                        Easier to monitor and control <br> Less short-term potency</p>
+                        <p class="card-text-info">Lower heat-trapping potential<br> Lower immediate warming effect <br>
+                            Easier to monitor and control <br> Less short-term potency</p>
                     </div>
-                
                 </div>
-
             </div>
         </div>
 
+        <br><br>
 
-
-        <br>
-
-        <div class="glass">
-            <h3>Why should I use parallax graphics?</h3>
-            <ul>
-                <p>There are two main reasons why designers should try parallax graphics:</p>
-                <li>
-                    <h4>It helps tell a story</h4>
-                    <p>
-                        Parallax graphics are ideal for storytelling. Good design is all about communication—and when we
-                        design websites, we want to communicate with our visitors and tell a compelling story about our
-                        product, service, or brand. Parallax scrolling allows us to immerse our website visitors in
-                        unique online experiences. It's even possible to create a one-page website where visitors can
-                        read an entire story about your product or brand without navigating to multiple pages.
-                    </p>
-                </li>
-                <li>
-                    <h4>It helps to improve user engagement</h4>
-                    <p>
-                        Parallax graphics can be used to improve user engagement. Reducing your website’s bounce rate is
-                        one of the goals to be conscientious of in web design. Bounce rate measures the percentage of
-                        site visitors who either hit the “back” button or close the tab after checking just one page of
-                        your
-                        website. High bounce rates hurt your search ranking, so any actions you can take to bring that
-                        rate down are worthwhile. A well-crafted parallax page gives the user the type of dynamic
-                        experience that tends to keep them on the page longer.
-                    </p>
-                </li>
-            </ul>
+       <div class="section3">
+            <h3>Methane Cycle</h3>
+            <div class="section3-container-img" id="imageContainer">
+                <img class="img-section3" src="images/methano/ciclo.jpeg" alt="Descripción de la imagen" />
+                <div class="section3-card" id="card">
+                    <ul id="card-text">
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <br>
+        <br><br>
 
-        <div class="glass">
-            <h3>If you want to add a parallax scrolling effect to your website, you should consider the following tips.
-            </h3>
-            <ul>
-                <li aria-level="1">
-                    <h4>Use it selectively</h4>
-                    <p>
-                        Parallax scrolling is much more powerful when you use it on one particular element as opposed
-                        to all pages and all the time. Use it in headers and titles, or maybe on your homepage only.
-                        You want parallax scrolling to strengthen your website's design, not distract users.
-                    </p>
-                </li>
-                <li aria-level="1">
-                    <h4>Image compression</h4>
-                    <p>
-                        Parallax scrolling uses a variety of media files and CSS shapes to create a sense of depth.
-                        You don't want to compromise your web performance and user experience ith large image files that
-                        load too slowly.
-                    </p>
-                </li>
-                <li aria-level="1">
-                    <h4>Play with color</h4>
-                    <p>
-                        Parallax scrolling isn't just about the images in the foreground and background,
-                        but about color, too. You might use more desaturated tones in the background and
-                        more lively colors in the foreground to create an even greater sense of depth.
-                    </p>
-                </li>
-            </ul>
+
+<div class="glass">
+            <h3>Solutions to Reduce Methane: Tackling an 80x Greater Threat Than CO₂</h3>
+            <p>Using Red Algae, Synthetic Additives, and Lab-Grown Meat to Combat Agricultural Methane Emissions:</p>
+            
+            <div class="figures-container">
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointer  hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg" src="images/carrucel/algas.gif" alt="Red Algae">
+                    </a>
+                    <figcaption class="absolute px-4 text-lg text-white bottom-6">
+                            <p class="text-black text-1xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                                Using red algae in cattle feed results in an 82% reduction in methane from cattle burps.
+                            </p>
+
+                    </figcaption>
+                </figure>
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointe  hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg" src="images/carrucel/lab.GIF" alt="Red Algae">
+                    </a>
+                    <figcaption class="absolute px-4 text-lg text-white bottom-6">
+                        <p class="text-black text-1xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                            Synthetic additives reduce livestock methane by 30% just by adding to their diet.                   </p>
+                    </figcaption>
+                </figure>
+        
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointer  hover:grayscale-0">
+                    <a href="#">
+                        <img class="rounded-lg reducir-altura" src="images/carrucel/carne.gif" alt="Red Algae">
+                    </a>
+                    <figcaption class="absolute px-4 text-lg text-white bottom-6">
+                        <p class="text-black text-1xl font-bold bg-blue-400/50 px-4 py-2 rounded-md">
+                            Lab-grown meat reduces emissions by 92%.                        </p>
+
+                    </figcaption>
+                </figure>
+            </div>
         </div>
 
         <!-- Importing fish and seabed images -->
         <img src="images/methano/gas1.png" id="fish1" class="fishes">
-        <img src="images/sea/fish2.png" id="fish2" class="fishes">
-        <img src="images/sea/fish3.png" id="fish3" class="fishes">
-        <img src="images/sea/fish4.png" id="fish4" class="fishes">
-        <img src="images/sea/oceanbed.png" id="seabed" class="fishes">
+        <img src="images/methano/gas1.png" id="fish2" class="fishes">
+        <img src="images/methano/ch4.png" id="fish3" class="fishes">
+        <img src="images/methano/gas1.png" id="fish4" class="fishes">
+
+        <img src="images/methano/granja.jpg" id="seabed" class="fishes">
+
 
         <!-- Container for the bubble animation -->
         <div class="bubbles">
@@ -176,41 +272,16 @@
 
     <!-- Code for the footer -->
     <div class="footer" id="footer">
-        Do Follow Me On:
-        <div class="wrapper">
-            <div class="social-media">
-                <div class="icon">
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-                <span>Instagram</span>
-            </div>
-            <div class="social-media">
-                <div class="icon">
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
-                <span>LinkedIn</span>
-            </div>
-            <div class="social-media">
-                <div class="icon">
-                    <i class="fa-brands fa-github"></i>
-                </div>
-                <span>GitHub</span>
-            </div>
-            <div class="social-media">
-                <div class="icon">
-                    <i class="fa-solid fa-link"></i>
-                </div>
-                <span>Portfolio</span>
-            </div>
-        </div>
-        <span>A website created by Vineet Kumar ❤️<br>IT 4th Yr at SSN College of Engineering</span>
+        <span>This project was made with the spirit of Oaxacan youth.❤️<br>for the NASA Space Apps Challenge 2024.</span>
     </div>
 
     <!-- The button to scroll back to top -->
     <a id="top" href="#"> <i class="fas fa-arrow-up"></i> </a>
-</body>
 
-<!-- Always include javascript at end of file...just above html tag -->
-<script src="action.js"></script>
+    <script src="script.js"></script>
+    <script src="action.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+</body>
 
 </html>
