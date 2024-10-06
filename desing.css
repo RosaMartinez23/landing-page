@@ -1,0 +1,55 @@
+.section1{
+	background-color: #171515;
+	width: 100%;
+	height: 100%;
+	background-image: url('images/methano/humo.jpg');
+
+}
+
+.section-container1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title-metahno{
+	font-size: 27px;
+	font-weight: 500;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
+}
+
+.card {
+    background-color: white;
+    width: 25%;
+    height: 60vh;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+.header-img-card{
+    background-image: url('images/methano/vacas.png');
+    width: 96%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+
+.header-img-card-dioxido{
+    background-image: url('images/methano/co2.png');
+    width: 96%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.card-text-info{  
+	font-size: 16px;
+	font-weight: 200;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #000000;
+}
