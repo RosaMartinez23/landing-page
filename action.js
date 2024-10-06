@@ -35,11 +35,13 @@ window.addEventListener('scroll', function () {
 
     explore.style.marginTop = value * 1.5 + 'px';
 
-    rocks.style.top = value * -0.14 + 'px';
+    rocks.style.top = value * 0.25 + 'px';
 
     forest.style.top = value * 0.4 + 'px';
     sky.style.top = value * 0.25 + 'px';
     mountains.style.top = value * 0.25 + 'px';
+    
+    fabric.style.top = value * -0.14 + 'px';
 
     header.style.top = value * 0.7 + 'px';
     sun.style.top = value * 1 + 'px';

@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 html,
@@ -35,7 +35,7 @@ html {
 }
 
 #header .logo {
-    color: #002431;
+    color: #21b1e5;
     font-weight: 800;
     font-size: 2.5em;
     text-decoration: none;
@@ -65,7 +65,7 @@ html {
 
 #header ul li a:hover,
 #header ul li a.active {
-    background: #003549;
+    background: #492d00;
     color: white;
 }
 
@@ -112,7 +112,7 @@ section #text span {
 
 section #text {
     position: absolute;
-    color: #004660;
+    color: #b5d3de;
     font-size: 10vw;
     text-align: center;
     line-height: 0.55em;
@@ -178,7 +178,7 @@ section #text {
 .sec {
     position: relative;
     padding: 10%;
-    background: #085a7a;
+    background: #237a08;
     padding-bottom: 15%;
     z-index: 50;
     overflow: hidden;
@@ -414,5 +414,10 @@ section #text {
     #sea8 {
         left: 50%;
         width: 15%;
+    }
+
+    #fabric {
+        position: relative; /* Esto permite mover la imagen relativa a su posición actual */
+        top: 200px;         /* Mueve la imagen 200px hacia abajo (puedes ajustar este valor) */
     }
 }
