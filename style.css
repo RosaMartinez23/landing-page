@@ -177,8 +177,8 @@ section #text {
 /* Properties for middle section (below water) */
 .sec {
     position: relative;
-    padding: 10%;
-    background: #085a7a;
+    padding: 0%;
+    background: #000000;
     padding-bottom: 15%;
     z-index: 50;
     overflow: hidden;
