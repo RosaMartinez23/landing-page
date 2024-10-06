@@ -1,6 +1,6 @@
 // Select the class bubble
 time = document.getElementsByClassName('bubbles')[0];
-
+ 
 // padding values for desktop
 var fish2move = 100;
 var fish3move = 900;

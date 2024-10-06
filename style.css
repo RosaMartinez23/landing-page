@@ -22,7 +22,6 @@ html {
 
 #header {
     position: absolute;
-    /* To Overlap with background */
     top: 0;
     left: 0;
     width: 100%;
